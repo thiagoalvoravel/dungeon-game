@@ -6,79 +6,86 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="Player">
+      <sprite>sprites\spr_player</sprite>
+    </sprites>
     <sprites name="Wall">
       <sprites name="Up">
-        <sprite>sprites\s_wall_up_1</sprite>
-        <sprite>sprites\s_wall_up_4</sprite>
+        <sprite>sprites\spr_wall_up_1</sprite>
+        <sprite>sprites\spr_wall_up_4</sprite>
       </sprites>
       <sprites name="Down">
-        <sprite>sprites\s_wall_down_1</sprite>
-        <sprite>sprites\s_wall_down_2</sprite>
+        <sprite>sprites\spr_wall_down_1</sprite>
+        <sprite>sprites\spr_wall_down_2</sprite>
       </sprites>
       <sprites name="Left">
-        <sprite>sprites\s_wall_left_2</sprite>
-        <sprite>sprites\s_wall_left_1</sprite>
+        <sprite>sprites\spr_wall_left_2</sprite>
+        <sprite>sprites\spr_wall_left_1</sprite>
       </sprites>
       <sprites name="Right">
-        <sprite>sprites\s_wall_right_1</sprite>
-        <sprite>sprites\s_wall_right_2</sprite>
+        <sprite>sprites\spr_wall_right_1</sprite>
+        <sprite>sprites\spr_wall_right_2</sprite>
       </sprites>
       <sprites name="Corner">
-        <sprite>sprites\s_wall_corner_4</sprite>
-        <sprite>sprites\s_wall_corner_3</sprite>
-        <sprite>sprites\s_wall_corner_2</sprite>
-        <sprite>sprites\s_wall_corner_1</sprite>
-        <sprite>sprites\s_wall_corner_5</sprite>
-        <sprite>sprites\s_wall_corner_6</sprite>
-        <sprite>sprites\s_wall_corner_7</sprite>
-        <sprite>sprites\s_wall_corner_8</sprite>
-        <sprite>sprites\s_wall_corner_9</sprite>
-        <sprite>sprites\s_wall_corner_10</sprite>
+        <sprite>sprites\spr_wall_corner_4</sprite>
+        <sprite>sprites\spr_wall_corner_3</sprite>
+        <sprite>sprites\spr_wall_corner_2</sprite>
+        <sprite>sprites\spr_wall_corner_1</sprite>
+        <sprite>sprites\spr_wall_corner_5</sprite>
+        <sprite>sprites\spr_wall_corner_6</sprite>
+        <sprite>sprites\spr_wall_corner_7</sprite>
+        <sprite>sprites\spr_wall_corner_8</sprite>
+        <sprite>sprites\spr_wall_corner_9</sprite>
+        <sprite>sprites\spr_wall_corner_10</sprite>
       </sprites>
     </sprites>
     <sprites name="Misc">
-      <sprite>sprites\s_black</sprite>
+      <sprite>sprites\spr_black</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\b_one</background>
+    <background>background\bg_one</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <objects name="Wall">
       <objects name="Up">
-        <object>objects\o_wall_up_1</object>
-        <object>objects\o_wall_up_4</object>
+        <object>objects\obj_wall_up_1</object>
+        <object>objects\obj_wall_up_4</object>
       </objects>
       <objects name="Down">
-        <object>objects\o_wall_down_2</object>
-        <object>objects\o_wall_down_1</object>
+        <object>objects\obj_wall_down_2</object>
+        <object>objects\obj_wall_down_1</object>
       </objects>
       <objects name="Left">
-        <object>objects\o_wall_left_1</object>
-        <object>objects\o_wall_left_2</object>
+        <object>objects\obj_wall_left_1</object>
+        <object>objects\obj_wall_left_2</object>
       </objects>
       <objects name="Right">
-        <object>objects\o_wall_right_1</object>
-        <object>objects\o_wall_right_2</object>
+        <object>objects\obj_wall_right_1</object>
+        <object>objects\obj_wall_right_2</object>
       </objects>
       <objects name="Corner">
-        <object>objects\o_wall_corner_1</object>
-        <object>objects\o_wall_corner_3</object>
-        <object>objects\o_wall_corner_4</object>
-        <object>objects\o_wall_corner_2</object>
-        <object>objects\o_wall_corner_5</object>
-        <object>objects\o_wall_corner_6</object>
-        <object>objects\o_wall_corner_9</object>
-        <object>objects\o_wall_corner_10</object>
+        <object>objects\obj_wall_corner_1</object>
+        <object>objects\obj_wall_corner_3</object>
+        <object>objects\obj_wall_corner_4</object>
+        <object>objects\obj_wall_corner_2</object>
+        <object>objects\obj_wall_corner_5</object>
+        <object>objects\obj_wall_corner_6</object>
+        <object>objects\obj_wall_corner_9</object>
+        <object>objects\obj_wall_corner_10</object>
       </objects>
     </objects>
     <objects name="Misc">
-      <object>objects\o_black</object>
+      <object>objects\obj_black</object>
+      <object>objects\obj_solid</object>
+    </objects>
+    <objects name="Player">
+      <object>objects\obj_player</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\r_one</room>
+    <room>rooms\rm_one</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
